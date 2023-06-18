@@ -1,4 +1,4 @@
-/*
+
         const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
         const meals = ['Breakfast', 'Lunch', 'Dinner'];
         const menu = document.querySelector('#menu');
@@ -51,23 +51,3 @@
         shareButton.addEventListener('click', () => {
             shareViaEmail('Check out this page', 'Take a look at this page: ' + window.location.href);
         });
-    */
-
-
-
-
-        var ops = [5,2,];
-        var calpoints = function(ops){
-        var result = null;
-        for(i=0;i<ops.length;i++){
-
-            result = result + ops[i];
-            ops[i]++;
-            if(ops[i]=='C'){
-                
-            }
-        }
-return result;
-    }
-    console.log('hi');
-    console.log(calpoints(ops));
